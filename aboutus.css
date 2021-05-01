@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins";
+  overflow-y: scroll;
+  /*If the Y-Axis overflow, scroll bar will show*/
+
+}
+
+.navbar {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.navbar ul {
+  display: flex;
+  width: 470px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: gray;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+#login {
+  border: 2px solid gray;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+
+.word1 {
+  width: 77%;
+  display: flex;
+  margin: auto;
+  font-size: 40px;
+  color: gray;
+  font-weight: 900;
+  position: relative;
+  
+}
+
+.word1::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 170px;
+  background: #5db2ff;
+  bottom: -17px;
+  left: 230px;
+}
+
+.word2 {
+  display: flex;
+}
+pre {
+  padding: 80px;
+  white-space: pre-wrap;
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  font-size: 18px;
+  color: gray;
+  font-family: poppins;
+  
+}
+
+.workout {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  position: absolute;
+  left: 70%;
+  bottom:30%;
+  
+}
+
+.word3{
+  width: 77%;
+  display: flex;
+  margin: auto;
+  font-size: 40px;
+  color: gray;
+  font-weight: 900;
+  position: relative;
+  padding-top: 30%;
+
+}
+
+.picture{
+   display: flex;
+  flex-wrap: wrap;
+  
+}
+.picture img{
+  margin-left: 3.5%;
+  margin-top: 3%;
+}
+
+
+
+
+  
+
+/* Media for every sizes of screen resolution of different monitor: */
+
+
+
+@media only screen and (max-width: 480px) {
+  /* For mobile phones: */
+  [class*="navbar"] {
+    width: 100%;
+    zoom: 60%;
+  }
+}
+@media only screen and (max-width: 280px) {
+  /* For mobile phones: */
+  [class*="navbar"] {
+    width: 100%;
+    zoom: 60%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="workout"] {
+    width: 100%;
+    zoom: 60%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  /* For mobile phones: */
+  [class*="workout"] {
+    width: 100%;
+    margin:auto;
+    zoom: 60%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  /* For mobile phones: */
+  [class*="word3"] {
+    width: 80%;
+    padding-top: 50%; 
+    zoom: 80%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  /* For mobile phones: */
+  [class*="word3"] {
+    width: 80%;
+    padding-top: 100%; 
+    zoom: 80%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  /* For mobile phones: */
+  [class*="word3"] {
+    width: 80%;
+    padding-top: 60%; 
+    zoom: 80%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  [class*="word3"] {
+    width: 80%;
+    padding-top: 140%; 
+    zoom: 80%;
+  }
+}
+@media only screen and (max-width: 430px) {
+  /* For mobile phones: */
+  [class*="word3"] {
+    width: 80%;
+    padding-top: 200%; 
+    zoom: 80%;
+  }
+}
+@media only screen and (max-width: 370px) {
+  /* For mobile phones: */
+  [class*="word3"] {
+    width: 80%;
+    padding-top: 220%; 
+    zoom: 80%;
+  }
+}
+@media only screen and (max-width: 380px) {
+  /* For mobile phones: */
+  [class*="word3"] {
+    width: 80%;
+    padding-top: 230%; 
+    zoom: 80%;
+  }
+}
+@media only screen and (max-width: 360px) {
+  /* For mobile phones: */
+  [class*="word3"] {
+    width: 80%;
+    padding-top: 260%; 
+    zoom: 80%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  /* For mobile phones: */
+  [class*="word3"] {
+    width: 80%;
+    padding-top: 265%; 
+    zoom: 80%;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  /* For mobile phones: */
+  [class*="word3"] {
+    width: 80%;
+    padding-top: 295%; 
+    zoom: 80%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  /* For mobile phones: */
+  [class*="word3"] {
+    width: 80%;
+    padding-top: 325%; 
+    zoom: 80%;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  /* For mobile phones: */
+  [class*="word3"] {
+    width: 80%;
+    padding-top: 80%; 
+    zoom: 80%;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  /* For mobile phones: */
+  [class*="word3"] {
+    width: 80%;
+    padding-top: 450%; 
+    zoom: 80%;
+  }
+}
+@media only screen and (max-width: 610px) {
+  /* For mobile phones: */
+  [class*="word3"] {
+    width: 80%;
+    padding-top: 100%; 
+    zoom: 80%;
+  }
+}
+@media only screen and (max-width: 512px) {
+  /* For mobile phones: */
+  [class*="picture"] {
+    width: 80%;
+    padding-top: 10%; 
+    zoom: 80%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  [class*="word3"] {
+    width: 80%;
+    padding-top: 160%; 
+    zoom: 80%;
+  }
+}

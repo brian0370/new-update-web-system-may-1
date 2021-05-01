@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <link rel="stylesheet" href="freedomwall.css">
+      <link href="css/fontawesome/css/all.css" rel="stylesheet" type="text/css"/>
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <title>Freedom Wall</title>
+   </head>
+   <body>
+      <div id="mySidenav" class="sidenav">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+         <img style=" height: 22%; width: 75%; margin-top: -10%; margin-bottom: 5%;" src="id.png">
+         <br>
+         <img src="31.png" style=" width: 15%;margin-left: 5px; margin-bottom: -17%;">
+         <a href="#" style="margin-left: 10%;">Overview</a>
+         <img src="32.png" style=" width: 15%;margin-left: 5px; margin-bottom: -26%; padding-top: 5%;">
+         <a href="#" style="margin-left: 10%; margin-top: 10%;">Mental Health Index</a>
+         <img src="33.png" style=" width: 15%;margin-left: 5px; margin-bottom: -26%; padding-top: 5%;">
+         <a href="Symptomschecker.html" style="margin-left: 10%; margin-top: 10%;">Symptoms Checker</a>
+         <img src="34.png" style=" width: 15%;margin-left: 5px; margin-bottom: -26%; padding-top: 5%;">
+         <a href="#" style="margin-left: 10%; margin-top: 10%;">Freedom Wall</a>
+         <img src="35.png" style=" width: 15%;margin-left: 5px; margin-bottom: -26%; padding-top: 5%;">
+         <a href="moodtracker.html" style="margin-left: 10%; margin-top: 10%;">Mood Tracker</a>
+         <img src="36.png" style=" width: 18%;height:4%;margin-left: 5px; margin-bottom: -33%; padding-top: 5%;">
+         <a href="#" style="margin-left: 10%; margin-top: 18%;">Resources & Programs</a>
+         <br>
+         <br>
+         <img src="37.png" style=" width: 13%;margin-left: 10px; margin-bottom: -25%;">
+         <a href="#" style="margin-left: 10%; margin-top: 10%;">Help Assistance</a>
+         <img src="38.png" style=" width: 20%;margin-left: 0px; margin-bottom: -29%; padding-top: 5%;">
+         <a href="#" style="margin-left: 10%; margin-top: 10%;">Contact Us</a>
+      </div>
+      <div id="main">
+      <div class="card_top">
+         <span style="font-size:20px;cursor:pointer; float: left; margin:8px 0px 0px 20px;" onclick="openNav()">&#9776;</span>
+         <h1>Freedom Wall</h1>
+      </div>
+
+      <div class="container-text">
+      <div class="text1">
+         <pre>
+   <h1>We'd like to know your experience and story,
+share it with us!    </h1>
+       
+       </pre>
+      </div>
+      <br>
+       <div class="container-text">
+      <div class="textarea">
+      <textarea placeholder="Type your message here..." rows="8" cols="150" name="comment" form="usrform"></textarea>
+
+
+   </div>
+
+       
+          <button class= "button">Post Now</button>
+  
+           <div class="container-text">
+      <div class="textarea2">
+      <textarea placeholder="Type your message here..." rows="8" cols="150" name="comment" form="usrform"></textarea>
+
+
+   </div>
+
+
+
+
+  
+            <div class ="container">
+           <div class="wrapper">
+      <nav>
+
+        <input type="radio" name="tab" id="inbox" checked>
+        <input type="radio" name="tab" id="heart">
+       
+        
+        <label for="inbox" class="inbox"><a href="#"><i class="fas fa-comment-alt-lines"></i></a></label>
+        
+        <label for="heart" class="heart"><a href="#"><i class="far fa-heart"></i></a></label>
+        
+        <div class="tab">
+      </div>
+         </nav>
+      </div>
+
+
+       <div class="container-text">
+      <div class="textarea3">
+      <textarea placeholder="Type your message here..." rows="8" cols="150" name="comment" form="usrform"></textarea>
+
+
+   </div>
+
+
+            <div class ="container">
+           <div class="wrapper2">
+      <nav class="nav2">
+
+        <input type="radio" name="tab2" id="inbox2" checked>
+        <input type="radio" name="tab2" id="heart2" >
+       
+        
+        <label for="inbox2" class="inbox1"><a href="#"><i class="fas fa-comment-alt-lines"></i></a></label>
+        
+        <label for="heart2" class="heart1"><a href="#"><i class="far fa-heart"></i></a></label>
+        
+        <div class="tab2">
+      </div>
+         </nav>
+      </div>
+
+
+
+       <div class="container-text">
+      <div class="textarea4">
+      <textarea placeholder="Type your message here..." rows="8" cols="150" name="comment" form="usrform"></textarea>
+
+
+   </div>
+
+
+       <div class="container-text">
+      <div class="textarea4">
+      <textarea placeholder="Type your message here..." rows="8" cols="150" name="comment" form="usrform"></textarea>
+
+
+   </div>
+
+        <div class ="container">
+           <div class="wrapper3">
+      <nav class="nav3">
+
+        <input type="radio" name="tab3" id="inbox3" checked>
+        <input type="radio" name="tab3" id="heart3" >
+       
+        
+        <label for="inbox3" class="inbox2"><a href="#"><i class="fas fa-comment-alt-lines"></i></a></label>
+        
+        <label for="heart3" class="heart2"><a href="#"><i class="far fa-heart"></i></a></label>
+        
+        <div class="tab3">
+      </div>
+         </nav>
+      </div>
+
+         <button class= "button2">Read More</button>
+
+
+
+
+     <script>
+         function openNav() {
+           document.getElementById("mySidenav").style.width = "250px";
+           document.getElementById("main").style.marginLeft = "250px";
+         }
+         
+         function closeNav() {
+           document.getElementById("mySidenav").style.width = "0";
+           document.getElementById("main").style.marginLeft= "0";
+         }
+      </script>
+      
+   </body>
+</html>

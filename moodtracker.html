@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
+      <link rel="stylesheet" href="moodtracker.css">
+      <title>Sample</title>
+   </head>
+   <body>
+      <div id="mySidenav" class="sidenav">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+         <img style=" height: 22%; width: 75%; margin-top: -10%; margin-bottom: 5%;" src="id.png">
+         <br>
+         <img src="31.png" style=" width: 15%;margin-left: 5px; margin-bottom: -17%;">
+         <a href="#" style="margin-left: 10%;">Overview</a>
+         <img src="32.png" style=" width: 15%;margin-left: 5px; margin-bottom: -26%; padding-top: 5%;">
+         <a href="#" style="margin-left: 10%; margin-top: 10%;">Mental Health Index</a>
+         <img src="33.png" style=" width: 15%;margin-left: 5px; margin-bottom: -26%; padding-top: 5%;">
+         <a href="#" style="margin-left: 10%; margin-top: 10%;">Symptoms Checker</a>
+         <img src="34.png" style=" width: 15%;margin-left: 5px; margin-bottom: -26%; padding-top: 5%;">
+         <a href="freedomwall.html" style="margin-left: 10%; margin-top: 10%;">Freedom Wall</a>
+         <img src="35.png" style=" width: 15%;margin-left: 5px; margin-bottom: -26%; padding-top: 5%;">
+         <a href="#" style="margin-left: 10%; margin-top: 10%;">Mood Tracker</a>
+         <img src="36.png" style=" width: 18%;height:4%;margin-left: 5px; margin-bottom: -33%; padding-top: 5%;">
+         <a href="#" style="margin-left: 10%; margin-top: 18%;">Resources & Programs</a>
+         <br>
+         <br>
+         <img src="37.png" style=" width: 13%;margin-left: 10px; margin-bottom: -25%;">
+         <a href="#" style="margin-left: 10%; margin-top: 10%;">Help Assistance</a>
+         <img src="38.png" style=" width: 20%;margin-left: 0px; margin-bottom: -29%; padding-top: 5%;">
+         <a href="#" style="margin-left: 10%; margin-top: 10%;">Contact Us</a>
+      </div>
+      <div id="main">
+      <div class="card_top">
+         <span style="font-size:20px;cursor:pointer; float: left; margin:8px 0px 0px 20px;" onclick="openNav()">&#9776;</span>
+         <h1>Mood Tracker</h1>
+      </div>
+
+
+      <div class= "container">
+         <div class="text1">
+         <pre>
+      <h1>Hey Mr. Nobody,   </h1>
+      <h3>How are you feeling today? Let us know</h3>
+
+       </pre>
+      </div>
+         
+         <div class="emoji-1">
+           
+             <img
+               src="smile.png"
+               id=""
+               alt="Flowers in Chania"
+               width="160"
+               height="160"
+               />
+               <p>Happy</p>
+         </div>
+         
+         <div class="emoji-2">
+             <img
+               src="timpi.png"
+               id=""
+               alt="Flowers in Chania"
+               width="160"
+               height="160"
+               />
+               <p>neutral</p>
+         </div>
+
+         <div class="emoji-3">
+           
+             <img
+               src="sad.png"
+               id=""
+               alt="Flowers in Chania"
+               width="160"
+               height="160"
+               />
+            
+            <p>Sad</p>
+         </div>
+
+         <div class="graph">
+            <img
+               src="graph.png"
+               id="graph"
+               alt="graph"
+               width="550"
+               height="500"
+               />
+         </div>
+
+         <div class="march">
+            <img
+               src="march.png"
+               id="march"
+               alt="march"
+               width="550"
+               height="500"
+               />
+         </div>
+
+         <div class="april">
+            <img
+               src="april.png"
+               id="april"
+               alt="april"
+               width="550"
+               height="500"
+               />
+         </div>
+
+
+
+
+
+
+
+      <script src="script.js"></script>
+      <script>
+         function openNav() {
+           document.getElementById("mySidenav").style.width = "250px";
+           document.getElementById("main").style.marginLeft = "250px";
+           document.getElementById("text1").style.marginLeft = "250px";
+         }
+         
+         function closeNav() {
+           document.getElementById("mySidenav").style.width = "0";
+           document.getElementById("main").style.marginLeft= "0";
+           document.getElementById("text1").style.marginLeft= "0";
+         
+         }
+      </script>
+   </body>
+</html>
